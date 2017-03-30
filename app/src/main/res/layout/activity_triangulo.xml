@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen"
+    android:orientation="vertical"
+    tools:context="com.grupomdc.ejercicio11.Triangulo">
+
+    <TextView
+        android:id="@+id/tvLado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_lado1"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/edLado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"
+        android:hint="@string/texto_lado1"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvLado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_lado2"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/edLado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"
+        android:hint="@string/texto_lado2"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvLado3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_lado3"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/edLado3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"
+        android:hint="@string/texto_lado3"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_base"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/edBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"
+        android:hint="@string/texto_base"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_altura"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/edAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"
+        android:hint="@string/texto_altura"
+        android:inputType="numberDecimal"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/rgOperaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbPerimetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_perimetro"/>
+        <RadioButton
+            android:id="@+id/rbArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_area"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_calcular"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cero"/>
+</LinearLayout>

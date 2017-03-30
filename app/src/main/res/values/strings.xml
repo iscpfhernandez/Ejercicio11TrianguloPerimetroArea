@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ejercicio 11</string>
+    <string name="texto_descripcion">Programa que calcular el perímetro y área de un triángulo.</string>
+    <string name="texto_ingresar">Ingresar</string>
+    <string name="texto_integrantes">Integrantes: \nPedro \nFabián \nHernández \nBarbosa</string>
+    <string name="texto_lado1">Lado 1</string>
+    <string name="texto_lado2">Lado 2</string>
+    <string name="texto_lado3">Lado 3</string>
+    <string name="texto_base">Base</string>
+    <string name="texto_altura">Altura</string>
+    <string name="texto_perimetro">Perímetro</string>
+    <string name="texto_area">Área</string>
+    <string name="texto_calcular">Calcular</string>
+    <string name="texto_cero">0</string>
+    <string name="texto_sin_operacion">Sin operación</string>
+    <string name="texto_perimetro_operacion">El perímetro es:</string>
+    <string name="texto_area_operacion">El área es:</string>
+    <string name="texto_error">Error en la operación</string>
+</resources>
